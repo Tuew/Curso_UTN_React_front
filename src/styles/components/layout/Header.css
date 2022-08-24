@@ -1,0 +1,27 @@
+.header{
+    background-color: #130e12;
+    height: 65px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+
+  }
+
+.header{
+    display: inline-flex ;
+   
+}
+
+.header h1{
+    padding-left: 25px;
+    padding-top: 3px;
+    font-weight: 500;
+    font-style: italic;
+    color: #fff;
+    
+}
+
+
+
+
+
+

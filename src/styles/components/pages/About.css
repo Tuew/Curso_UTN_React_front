@@ -1,0 +1,54 @@
+#about{
+    background: #fff rgba(0,0,0,0.8)  repeat scroll center center/cover;
+    height: 100%;
+    width: 100%;
+    background-blend-mode: darken;
+   
+}
+
+
+.about{
+   display: inline-flex;
+   flex-direction: column;
+}
+
+.about-section{
+    width: 100%;
+    padding: 78px 0px;
+
+}
+
+.about-section img{
+    height: auto;
+    width: 420px;
+    border-radius: 7px;
+    border: 1px solid #000;
+}
+
+.about-text{
+    width: 550px;
+
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-text h1{
+    color: #000;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.about-text p{
+    color: #000;
+}
+
+
+
+

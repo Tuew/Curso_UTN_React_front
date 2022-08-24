@@ -1,0 +1,56 @@
+#servicios{
+    background: rgba(0,0,0,0.8) url(../../../../public/images/fondo2.jpg) repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+}
+
+.title{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    
+}
+
+.title h1{
+    font-weight: 600;
+    font-size: 31px;
+    color: #fff;
+}
+
+.servicio{
+    border: 1px solid #b5916d;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 18px;
+    display: inline-flex;
+    width: 600px;
+    gap: 25px;
+    align-items: center;
+}
+
+.servicio .info h4{
+    color: #b5916d;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid #b5916d;
+    padding-bottom: 10px;
+}
+
+.servicio .info p{
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+    border: 1px solid #b5916d;
+}
+
+.servicio:nth-child(even){
+    flex-direction: row-reverse;
+}

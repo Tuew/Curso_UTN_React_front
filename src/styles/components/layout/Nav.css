@@ -1,0 +1,30 @@
+.nav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 35px;
+    padding-top: 7px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1px 15px;
+   
+}
+
+
+.nav li {
+    display: inline-block;
+    
+    
+}
+
+.nav a:hover{
+    color: #b5916d;
+}
+
+a.activo{
+    color: #b5916d;
+ }

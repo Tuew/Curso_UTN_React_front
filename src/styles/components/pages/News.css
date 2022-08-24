@@ -1,0 +1,33 @@
+#novedades{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.title-news{
+    color: #000;
+    text-align: center;
+}
+
+.novedades{
+    color: #000;
+}
+
+.novedades h1{
+    
+}
+
+.novedades h4{
+    color: #b5916d;
+    text-align: center;
+}
+
+.novedades p {
+    
+}
+
+.img-news{
+    float: right;
+
+        
+}

@@ -1,0 +1,99 @@
+#contacto{
+    background: rgba(0,0,0,0.8) url(../../../../public/images/fondo2.jpg) repeat scroll center center/cover;
+    height: 100vh;
+    width: 100%;
+    background-blend-mode: darken;
+    display: flex;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto h2{
+    color: #fff;
+    text-align: center;
+}
+
+.contacto div{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.datos h1{
+    font-size: 22px;
+}
+
+.datos{
+    color: #fff;
+}
+
+.datos p{
+    font-size: 17px;
+    
+}
+
+.datos ul li{
+    color: #b5916d;
+    list-style-type: disc;
+    margin-top: 35px;
+    font-size: 17px;
+}
+
+.datos ul li span{
+    font-size: 17px;
+    color: #fff;
+    font-style: normal;
+}
+
+
+
+.formulario p{
+    display: flex;
+    margin-left: 45px;
+}
+
+.formulario p label{
+    min-width: 80px;  
+}
+
+.formulario p label{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+    width: 465px;
+    border: 1px solid #b5916d;
+}
+
+.formulario input[type="text"] {
+    width: 465px;
+    height: 23px;
+    border: 1px solid #b5916d;
+}
+
+.formulario input[type="submit"] {
+    background: #b5916d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 20px;
+    width: auto;
+    position: relative;
+    left: 17rem;
+    cursor: pointer;
+}
+
+.formulario input[type="submit"]:hover{
+    background-color: #130e12;
+    color: #b5916d;
+}
